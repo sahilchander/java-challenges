@@ -1,4 +1,5 @@
-public class GptTest {
+package practice;
+class GptTest {
     static void main(String[] args) {
         int oneInt = 20;
         double oneDouble = 20.5;
