@@ -11,9 +11,9 @@ public class FahrenheitConvertor {
         System.out.print("Please Enter Your Fahrenheit: ");
         float fah = input.nextFloat();
 
-        float conCelsius = (fah -32) * 5.0f / 9.0f;
+        float conCe = (fah -32) * 5.0f / 9.0f;
 
-        System.out.print("\n\tYour Fahrenheit Converted Into Celsius: " + conCelsius + "°C");
+        System.out.print("\n\tYour Fahrenheit Converted Into Celsius: " + conCe + "°C");
 
 
     }
