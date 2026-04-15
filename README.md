@@ -1,6 +1,6 @@
 # 🚀 Java Challenges
 
-Hi, I'm **Sahil Chandra** 👋
+Hi, I'm **Sahil Chander** 👋
 
 ## 📌 About This Repository
 
