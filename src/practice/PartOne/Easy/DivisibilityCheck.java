@@ -1,4 +1,4 @@
-package FullPartOneTestQuestions.Easy;
+package practice.PartOne.Easy;
 
 import java.util.Scanner;
 
