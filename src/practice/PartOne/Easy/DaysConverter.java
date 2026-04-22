@@ -14,14 +14,21 @@ public class DaysConverter {
         years(days);
     }
     public static void years (int days) {
-        int years = days/365;
-        int leftdays = days%365;
-        int month = leftdays/30;
-        int leftdaysm= month%30;
-        System.out.println(years + " Years");
-        System.out.println(month + " Months");
-        System.out.println(leftdaysm + " Days");
-
-
+        int years = 0;
+        int month = 0;
+        int day = 0;
+        if (days > 365) {
+            years = days/365;
+            System.out.print(years + " Years" + " = " + (years * 365) + " days , ");
+            month = (days%365)/30;
+            System.out.print(month + " Months" + " = " + (days % 365) + " days , ");
+            day = (days%365)%30;
+            System.out.println(day + " Days");
+        }else {
+            month = days/30;
+            System.out.print(month + " Months" + " = " + (month * 30) + " days , ");
+            day = days%30;
+            System.out.println(day + " Days");
+        }
     }
 }
