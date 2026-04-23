@@ -1,3 +1,7 @@
+/*
+    Question:
+    Create a program that computes the bitwise AND of two numbers.
+*/
 package basics;
 
 import java.util.Scanner;

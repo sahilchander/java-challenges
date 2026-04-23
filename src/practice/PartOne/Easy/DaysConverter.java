@@ -1,3 +1,8 @@
+/*
+    Question:
+    Days Converter: Input the total number of days from the user (e.g., 400).
+    Then convert and print Years, Months, and remaining Days (Assume 1 Year = 365 days, 1 Month = 30 days).
+*/
 package practice.PartOne.Easy;
 
 import java.util.Scanner;

@@ -1,3 +1,8 @@
+/*
+    Question:
+    Discount Calculator: Have the user input the price of a product.
+    If the price is more than 1000, apply a 15% discount, otherwise apply a 5% discount. Print the final price.
+*/
 package practice.PartOne.Easy;
 
 import java.util.Scanner;

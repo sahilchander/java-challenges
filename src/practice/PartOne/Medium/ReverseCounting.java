@@ -1,3 +1,9 @@
+/*
+    Question:
+    Reverse counting: Don't take a number from the user.
+    Use a while loop to print the reverse count from 0 to 1.
+*/
+
 package practice.PartOne.Medium;
 
 import java.util.Scanner;

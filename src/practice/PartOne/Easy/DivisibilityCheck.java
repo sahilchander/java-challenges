@@ -1,3 +1,7 @@
+/*
+    Question:
+    Divisibility Check: Take a number and check whether it is exactly divisible by both 5 and 7 (logical &&).
+*/
 package practice.PartOne.Easy;
 
 import java.util.Scanner;

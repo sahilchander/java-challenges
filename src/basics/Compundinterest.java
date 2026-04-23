@@ -1,9 +1,13 @@
+/*
+    Question:
+    Create a program to calculate Compound interest.
+*/
 package basics;
 
 import java.util.Scanner;
 
 public class Compundinterest {
-    static void main(String[] args) {
+   public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
         System.out.println("WelCome to Compound Interest Calculator!\n");

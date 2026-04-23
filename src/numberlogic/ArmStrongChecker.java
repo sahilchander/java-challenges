@@ -1,3 +1,7 @@
+/*
+    Question:
+    Create a program to check if a number is an Armstrong number.
+*/
 package numberlogic;
 
 import java.util.Scanner;
