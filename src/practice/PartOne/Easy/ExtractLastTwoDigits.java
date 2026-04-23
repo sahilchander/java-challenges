@@ -1,3 +1,8 @@
+/*
+    Question:
+    Extract last two digits: Take a large number (number) from the user and print only its last two digits
+    (hint: use the model operator % to do that).
+*/
 package practice.PartOne.Easy;
 
 import java.util.Scanner;

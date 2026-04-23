@@ -1,3 +1,7 @@
+/*
+    Question:
+    Create a program that determines if a number is odd or even.
+*/
 package conditions;
 
 import java.util.Scanner;

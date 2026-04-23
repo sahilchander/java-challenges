@@ -1,3 +1,9 @@
+/*
+    Question:
+    Create a program that determines if a given year is a leap year
+    (considering conditions like divisible by 4 but not 100, unless also
+    divisible by 400).
+*/
 package conditions;
 
 import java.util.Scanner;

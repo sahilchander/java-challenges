@@ -1,3 +1,8 @@
+/*
+    Question:
+    Salary Increment: Create a method calculateNavSalary(double currentSalary).
+    Within this method, increase the salary by 10% and return the new salary.
+*/
 package practice.PartOne.Easy;
 
 import java.util.Scanner;

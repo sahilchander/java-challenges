@@ -1,3 +1,8 @@
+/*
+    Question:
+    Absolute Difference: Take two numbers as input from the user.
+    Always subtract the smaller number from the larger number and print the result (no negative results).
+*/
 package practice.PartOne.Easy;
 
 import java.util.Scanner;

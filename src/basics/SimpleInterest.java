@@ -1,3 +1,7 @@
+/*
+    Question:
+    Create a program to calculate simple interest.
+*/
 package basics;
 
 import java.util.Scanner;

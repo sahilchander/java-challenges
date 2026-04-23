@@ -1,3 +1,7 @@
+/*
+    Question:
+    Write a function that calculates the factorial of a given number.
+*/
 package numberlogic;
 
 import java.util.Scanner;

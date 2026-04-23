@@ -1,3 +1,10 @@
+/*
+    Question:
+    Create a program that calculates grades based on marks
+    A -> above 90% B -> above 75%
+    C -> above 60% D -> above 30%
+    F -> below 30%
+*/
 package conditions;
 
 import java.util.Scanner;

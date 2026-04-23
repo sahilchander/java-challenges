@@ -1,3 +1,8 @@
+/*
+    Question:
+    Product of Digits: We covered the sum of digits in this course. Now, take a number from the user and find the product
+    (multiplication) of all its digits (e.g., 423 -> 4×2×3=24).
+*/
 package practice.PartOne.Medium;
 
 import java.util.Scanner;

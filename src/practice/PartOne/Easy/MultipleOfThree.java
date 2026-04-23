@@ -1,3 +1,8 @@
+/*
+    Question:
+    Multiple of three: Write a method called isMultipleOfThree(int num) that returns a Boolean value.
+    Returns true if the number is a multiple of 3, false otherwise.
+*/
 package practice.PartOne.Easy;
 
 import java.util.Scanner;

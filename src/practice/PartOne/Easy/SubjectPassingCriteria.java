@@ -1,3 +1,9 @@
+/*
+    Question:
+    Subject Passing Criteria: Take marks of 3 subjects from the user.
+    If marks in all three subjects are more than 40 and total average is more than 50,
+    then only print "Pass", else "Fail".
+*/
 package practice.PartOne.Easy;
 
 import java.util.Scanner;

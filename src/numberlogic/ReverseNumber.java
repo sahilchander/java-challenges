@@ -1,3 +1,7 @@
+/*
+    Question:
+    Create a program to reverse the digits of a number.
+*/
 package numberlogic;
 
 import java.util.Scanner;

@@ -1,3 +1,7 @@
+/*
+    Question:
+    Create a program to verify if a number is a palindrome.
+*/
 package numberlogic;
 
 import java.util.Scanner;

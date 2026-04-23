@@ -1,3 +1,7 @@
+/*
+    Question:
+    Create a program to check whether a given number is prime.
+*/
 package numberlogic;
 
 import java.util.Scanner;

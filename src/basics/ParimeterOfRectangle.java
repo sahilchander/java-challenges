@@ -1,3 +1,7 @@
+/*
+    Question:
+    Create a program to calculate Perimeter of a rectangle.
+*/
 package basics;
 
 import java.util.Scanner;

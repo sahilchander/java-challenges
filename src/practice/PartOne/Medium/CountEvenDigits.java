@@ -1,3 +1,8 @@
+/*
+    Question:
+    Count Even Digits: Input a large number and use a while loop to count how many digits are even in that number
+    (e.g., in 87432, 8, 4, 2 are even, so the answer should be 3).
+*/
 package practice.PartOne.Medium;
 
 import java.util.Scanner;
