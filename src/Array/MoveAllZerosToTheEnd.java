@@ -4,7 +4,6 @@
     contains several 0s mixed with other numbers. Modify the array so that all the 0s are pushed to the very end,
     while keeping the original order of all the non-zero elements intact. Constraint: You must do this
     without creating a new array (In-place modification).
-
  */
 package Array;
 
@@ -15,13 +14,22 @@ public class MoveAllZerosToTheEnd {
 
         int[] myArr = ArrayUtility.inputArray();
 
+        ArrayUtility.displayArray(zeroArr(myArr));
+
     }
-    public static int[] zeroArr9(int[] myArr){
+    public static int[] zeroArr(int[] myArr){
         int i = 0;
-        int[] temArr = new int[myArr.length];
         while (i < myArr.length){
-            if (myArr[i] != 0){
-                temArr[i] = myArr[i];
+            if (myArr[i] == 0){
+                int j = i+1;
+                while (j < myArr.length){
+                    if (myArr[j] != 0){
+                        myArr[i] = myArr[j];
+                        myArr[j] = 0;
+                        break;
+                    }
+                    j++;
+                }
             }
             i++;
         }
