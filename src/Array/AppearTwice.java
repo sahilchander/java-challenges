@@ -1,7 +1,7 @@
 /*
     Question
     Given an integer array, print all elements that appear more than once.
-    Input: [4, 3, 2, 7, 8, 2, 3, 1]
+    Input: [4, 2, 3, 7, 8, 2, 3, 1]
     Output: [2, 3]
  */
 package Array;
@@ -13,22 +13,22 @@ public class AppearTwice {
 
         int[] myArr = ArrayUtility.inputArray();
 
-        ArrayUtility.displayArray(moreThanOne(myArr));
+        moreThanOne(myArr);
     }
-    public static int[] moreThanOne (int[] myArr){
+    public static void moreThanOne (int[] myArr){
         int i = 0;
-        int j = 1;
-        int[] twiceArr = new int[myArr.length];
         while (i < myArr.length){
+            int j = i+1;
             while (j < myArr.length){
                 if (myArr[i] == myArr[j]){
-                    twiceArr[i] = myArr[j];
+                    System.out.print(myArr[i] + " , ");
                     break;
                 }
                 j++;
             }
             i++;
         }
-        return twiceArr;
+
     }
 }
+

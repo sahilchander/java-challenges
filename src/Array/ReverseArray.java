@@ -19,12 +19,12 @@ public class ReverseArray {
     public static int[] reverse(int[] myArr){
         int i = myArr.length;
         int j = 0;
-        int[] newArr = new int[myArr.length];
+        int[] newArray = new int[myArr.length];
         while (i > 0){
-            newArr[j] = myArr[i-1];
+            newArray[j] = myArr[i-1];
             i--;
             j++;
         }
-        return newArr;
+        return newArray;
     }
 }
