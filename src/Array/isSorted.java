@@ -1,6 +1,6 @@
 /*
     Question
-    Create a program to check if the given array is sorted.
+    Create a program to check if the given array is sorted or not.
  */
 
 package Array;

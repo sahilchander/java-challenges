@@ -20,9 +20,9 @@ public class SearchingOfTwoDArray {
         boolean isFound = isFound(myArr,num);
 
         if (isFound){
-            System.out.println(num + " is found in our array");
+            System.out.println(num + " is found in our Array");
         }else {
-            System.out.println(num + " is not found in our array");
+            System.out.println(num + " is not found in our Array");
         }
     }
     public static boolean isFound(int[][] myArr, int num){

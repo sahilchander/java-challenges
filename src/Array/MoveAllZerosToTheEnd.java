@@ -1,7 +1,7 @@
 /*
     Question
-    Move All Zeros to the End (In-Place) Write a program that takes an array of integers that
-    contains several 0s mixed with other numbers. Modify the array so that all the 0s are pushed to the very end,
+    Move All Zeros to the End (In-Place) Write a program that takes an array of integers that contains several
+    0s mixed with other numbers. Modify the array so that all the 0s are pushed to the very end,
     while keeping the original order of all the non-zero elements intact. Constraint: You must do this
     without creating a new array (In-place modification).
  */
