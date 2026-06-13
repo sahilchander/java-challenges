@@ -2,7 +2,7 @@
     Question
     Target Pair Sum (Two Sum) (Write a program that takes an array of integers and a target number from the user.
     Check if there are any two distinct elements in the array that add up exactly to the target number.
-    If such a pair exists, print true, otherwise print false.)
+    If such a pair exists, print true, otherwise print false.
 */
 package Array;
 import java.util.Scanner;
